@@ -1,0 +1,98 @@
+ #button-exam{
+    animation-name: example;
+    animation-duration: 4s;
+  }
+   @keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: blue;}
+    50%  {background-color: red;}
+    100% {background-color: blue;}
+  }
+#topabout{
+    animation: mymove 3s;
+    /* animation-iteration-count: infinite; */
+     animation-fill-mode: forwards;
+}
+  @keyframes mymove {
+    from {top: 150px;}
+    to {top: 0px;}
+  }
+  /*
+  #about-img{
+      animation: rightleft 10s;
+      animation-fill-mode: forwards;
+      object-fit: cover;
+  }
+
+  .product-leftanimiton{
+    height: 400px;
+    animation: rightleft 10s;
+    animation-fill-mode: forwards;
+  }
+  @keyframes rightleft{
+    from{left: 250px}
+    to {left: 0px;}
+  }
+.images-solution{
+    animation: leftright 5s;
+    animation-fill-mode: forwards;
+}  
+.product-animation{
+    animation: leftright 5s;
+    animation-fill-mode: forwards;
+}
+@keyframes leftright{
+    from{right: 250px}
+    to {right: 0px;}
+  }  */
+
+
+  /* .box-one{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+.box-two{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+.box-three{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+.box-for{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+.box-five{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+.box-six{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+.box-seven{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+}
+@keyframes images-bouns{
+    from{top: 250px}
+    to {top: 0px;}
+  } */
+div .content-solution{
+    animation: loaddelay 5s ;
+}
+/* #media-1{
+    animation: images-bouns 15s;
+    animation-fill-mode: forwards;
+} */
+/* 
+#media-2{animation-timing-function: ease;}
+#media-3{animation-timing-function: ease-in;}
+#media-4{animation-timing-function: ease-out;}
+#media-5{animation-timing-function: ease-in-out;} */
+
+@keyframes loaddelay {
+    from {left: 300px;}
+    to {left: 0px;}
+  }

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="./css/menu.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <title>Contact</title>
+</head>
+<body>
+	<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html" id="logo-header">
+          <img src="http://beta.asuzac.com.vn/images/logo/LOGO ASUZAC-01.png">
+        </a>
+      </div>
+      <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">Trang Chủ</a></li>
+          <li><a href="./aboutus.html">Giới Thiệu</a></li>
+          <li><a href="./view/product/category.html">Sản Phẩm</a></li>
+          <li><a href="./solution.html">Đặc Tính Công Nghệ</a></li>
+          <li><a href="./news.html">NEWS</a></li>
+          <li><a href="./contact.html">Liên Hệ</a></li>
+          <li>
+            <form class="navbar-form " action="">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" name="search">
+                <div class="input-group-btn">
+                  <button class="btn btn-default" type="submit">
+                    <i class="glyphicon glyphicon-search"></i>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- end menu -->
+  <!--mo banner website -->
+  <div class="container-fluid" id="maps">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.3445760152285!2d106.72879571469656!3d10.937322592212453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d9ddb34365e3%3A0x533fbb2a47a76388!2sC%C3%B4ng%20Ty%20TNHH%20ASUZAC%20-%20Nh%C3%A0%20M%C3%A1y%202!5e0!3m2!1sen!2s!4v1600054596048!5m2!1sen!2s"
+      width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+      tabindex="0"></iframe>
+  </div>
+  <!-- dong banner website       -->
+  <div class="container-fluid" style="padding: 0;background-color: #dbdbdbb5;">
+    <!-- lien he -->
+    <div class="container" style="padding: 30px;">
+      <div class="row contact-company">
+        <h2>CÔNG TY TNHH ASUZAC (ASUZAC CO., LTD)</h2>
+        <div class="col-sm-6 ">
+          <h3>Thông Tin Công Ty</h3>
+          <ul>
+            <li><span class="glyphicon glyphicon-comment"></span> M.S.D.N: 0302232712</li>
+            <li><span class="glyphicon glyphicon-phone-alt"></span> Điện thoại: +84-274-3782722</li>
+            <li><span class="glyphicon glyphicon-phone-alt"></span> Fax: +84-274-3782723 </li>
+            <li><span class="glyphicon glyphicon-envelope"></span> Email: info@asuzac.com.vn</li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <h3>Giờ Làm Việc</h3>
+          <ul>
+            <li><span class="glyphicon glyphicon-pushpin"></span> 07:15 Sáng – 04:00 Chiều</li>
+            <li><span class="glyphicon glyphicon-calendar"></span> Từ Thứ 2 – Thứ 7</li>
+            <li><span class="glyphicon glyphicon-map-marker"></span> Số 37 Đường số 6, khu công nghiệp Việt Nam Singapore 1, Bình Dương</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="container mobie-contact">
+          <div class="row">
+            <h2>GỬI YÊU CẦU HỖ TRỢ</h2>
+            <form>
+              <div class="col-sm-4" id="contact-form">
+                <div class="form-group">
+                  <select class="form-control" id="sel1">
+                    <option>Chủ Đề Bạn Quan Tâm</option>
+                    <option>Tư Vấn - Hỗ Trợ</option>
+                    <option>Kinh Doanh - Báo Giá</option>
+                    <option>Liên Hệ Hỗ Trợ</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-sm-4" id="contact-form">
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-pencil"></span></span>
+                  <input id="title" type="text" class="form-control" name="title" placeholder="Tiêu Đề">
+                </div>
+              </div>
+              <div class="col-sm-4" id="contact-form">
+                <div class="input-group">
+                  <span class="input-group-addon"> <span class="glyphicon glyphicon-user"></span></span>
+                  <input id="name" type="text" class="form-control" name="name" placeholder="Họ Và Tên">
+                </div>
+              </div>
+              <div class="col-sm-4" id="contact-form">
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                  <input id="email" type="text" class="form-control" name="email" placeholder="Email">
+                </div>
+              </div>
+              <div class="col-sm-4" id="contact-form">
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-phone-alt"></span></span>
+                  <input id="password" type="number" class="form-control" name="phone" placeholder="Số Điện Thoại">
+                </div>
+              </div>
+              <div class="col-sm-4" id="contact-form">
+                <div class="input-group">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
+                  <input id="address" type="text" class="form-control" name="address" placeholder="Địa Chỉ">
+                </div>
+              </div>
+              <div class="col-sm-12">
+                <div class="form-group">
+                  <label for="comment">Nội Dung</label>
+                  <textarea class="form-control" rows="12" id="comment"></textarea>
+                </div>
+              </div>
+              <div class="col-sm-12" id="contact-form">
+                <button type="button" class="btn btn-default">Gửi Thông Tin</button>
+                <button type="button" class="btn btn-default">Reset Form</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- dong lien he -->
+    </div>
+  </div>
+  <!-- mo div footer -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="container" style="padding-top: 30px;">
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="http://beta.asuzac.com.vn/images/logo/LOGO ASUZAC-01.png" alt="" style="height: auto; width: 300px;">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="container-fluid" style="background-color: #0061c1;height: 150px;">
+        <div class="row">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row email-content">
+                  <div class="col-sm-12" style="padding: 10px;">
+                    company | product | technology properties
+                  </div>
+                  <div class="col-sm-12" style="padding: 10px;">
+                    Email: info@asuzac.com.vn | Fax: +84-274-3782723
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 email-contact">
+                <div class="mail">
+                  Liên Hệ Ngay
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- dong div footer -->
+  <!-- copyright asuzac -->
+  <div class="container">
+    <div class="row">
+      <p class="copyright">Copyright (C) 2020 ASUZAC Inc.<span> All Rights Reserved.</span></p>
+    </div>
+  </div>
+  <!--end copyright asuzac -->
+
+</body>
+
+</html>

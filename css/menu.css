@@ -1,0 +1,80 @@
+h1, h2, h3, h4, h5{
+    font-weight: bold;
+    font-variant: bold;
+}
+#logo-header img{
+    height: 50px;
+    width: 253px;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    z-index: 1;
+    margin-bottom: 0px;
+}
+.navbar-brand{
+    padding: 4px 15px !important;
+}
+#myNavbar{
+    margin-bottom: -15px;
+	    font-size: 17px;
+}
+.navbar-inverse {
+    background-color: #fbfbfb;
+    border-color: #0808082b;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: red;
+    background-color: #f3f3f3;
+}
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+    color: #000;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #000;
+    background-color: #ffffff;
+}
+/* css slider  */
+#slider{
+    padding-left: 0;
+    padding-right: 0;
+}
+#myCarousel{
+    z-index: -1;
+}
+/* an prew next */
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    display: none;
+}
+.carousel-caption {
+    bottom: 100px;
+}
+.butom-video{
+    padding-top: 0px;
+}
+.butom-video {
+    position: absolute;
+     top: -5pc !important; 
+    bottom: 3pc;
+    left: 33px;
+}
+/* button watch video */
+.btn-danger.active, .btn-danger:active, .open>.dropdown-toggle.btn-danger {
+    box-shadow: 2px 3px #750707;
+    width: 150px;
+}
+.carousel-caption h1{
+    font-size: 69px;
+}
+@media only screen and (max-width: 1290px) {
+    .butom-video {
+        padding-top: 0px;
+    }
+    #myNavbar {
+        font-size: 13px;
+    }
+  }
